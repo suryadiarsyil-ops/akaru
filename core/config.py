@@ -24,7 +24,10 @@ DEFAULT_CONFIG = {
     "max_logs"        : 80,
     "show_timestamps" : True,
     "color"           : True,
-    "goal"            : "Bangun asisten pribadi stabil di HP low-end sebelum pindah ke PC",
+    "goal"            : 
+"Bangun asisten pribadi," 
+"stabil di HP low-end,"
+"sebelum pindah ke PC",
 }
 
 DOCTRINE = [

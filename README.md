@@ -6,7 +6,7 @@
 ---
 
 ## Spesifikasi Target
-| Perangkat | Samsung Galaxy J2 Pro |
+| Perangkat | Samsung Galaxy J2 Pro|
 |-----------|----------------------|
 | RAM       | ~1 GB                |
 | Python    | 3.x (via Termux)     |

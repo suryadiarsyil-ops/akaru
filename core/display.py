@@ -73,9 +73,9 @@ def print_banner(cfg):
 
     print()
     print(c("  ╔═══════════════════════════════════╗", CYAN))
-    print(c("  ║  ", CYAN) + c(f"{'AKARU':^33}", CYAN, BOLD) + c("  ║", CYAN))
-    print(c("  ║  ", CYAN) + c(f"{TAGLINE:^33}", GRAY)       + c("  ║", CYAN))
-    print(c("  ║  ", CYAN) + c(f"{'v' + VERSION:^33}", DIM)  + c("  ║", CYAN))
+    print(c("  ║  ", CYAN) + c(f"{'AKARU':^33}", CYAN, BOLD) + c("║", CYAN))
+    print(c("  ║  ", CYAN) + c(f"{TAGLINE:^33}", GRAY)       + c("║", CYAN))
+    print(c("  ║  ", CYAN) + c(f"{'v' + VERSION:^33}", DIM)  + c("║", CYAN))
     print(c("  ╚═══════════════════════════════════╝", CYAN))
     blank()
     print(f"  {c('User  :', GRAY)} {c(cfg['username'], WHITE, BOLD)}")
