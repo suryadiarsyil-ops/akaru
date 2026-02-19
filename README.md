@@ -20,6 +20,7 @@
 akaru/
 ├── akaru.py          ← launcher utama
 ├── setup.sh          ← installer alias Termux
+├── brain.py
 ├── data/             ← auto-generated (gitignored)
 │   ├── memory.json
 │   ├── log.json
