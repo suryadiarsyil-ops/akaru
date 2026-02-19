@@ -26,14 +26,18 @@ akaru/
 │   ├── mood.json
 │   ├── context.json
 │   └── config.json
-└── core/
-    ├── config.py     ← konstanta & load/save
-    ├── display.py    ← UI, warna ANSI, banner
-    ├── memory.py     ← cold memory + context sesi
-    ├── mood.py       ← mood & energy tracker
-    ├── analyzer.py   ← analisis pola lokal (no ML)
-    ├── summary.py    ← summary harian & mingguan
-    └── engine.py     ← intent router + executor
+├── core/
+│   ├── config.py     ← konstanta & load/save
+│   ├── display.py    ← UI, warna ANSI, banner
+│   ├── memory.py     ← cold memory + context sesi
+│   ├── mood.py       ← mood & energy tracker
+│   ├── analyzer.py   ← analisis pola lokal (no ML)
+│   ├── summary.py    ← summary harian & mingguan
+│   └── engine.py     ← intent router + executor
+└── modules/
+    ├── __init__.py
+    ├── analyzer.py
+    └── memory_manager.py
 ```
 
 ---
